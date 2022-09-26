@@ -1,0 +1,11 @@
+.Banner-container{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-img img{
+    border-radius: 10px;
+    
+}
+.banner-img {
+    padding-right: 20px;
+}

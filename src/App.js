@@ -1,11 +1,14 @@
-
 import "./App.css";
+import Banner from "./Pages/Banner/Banner";
 import Navbar from "./Pages/Header/Navbar";
 
 function App() {
-  return <div className="App">
-    <Navbar/>
-  </div>;
+  return (
+    <div className="App">
+      <Navbar />
+      <Banner />
+    </div>
+  );
 }
 
 export default App;
