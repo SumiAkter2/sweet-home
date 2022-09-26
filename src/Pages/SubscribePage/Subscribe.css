@@ -1,0 +1,21 @@
+.Subscribe-container{
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.Subscribe-container p{
+  font-size: larger;
+  font-weight: 700;
+}
+.input{
+    width: 200px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 0;
+}
