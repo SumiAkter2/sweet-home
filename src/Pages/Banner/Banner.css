@@ -1,16 +1,20 @@
 .Banner-container{
-background-image:linear-gradient(white,gray);
-    border-radius: 5px;
-} 
-
-.banner-content{
-    text-align: center;
+   /* background-color: rgba(166, 165, 165, 0.536); */
+   background-image: linear-gradient(white,gray);
    padding: 80px;
-    color: blueviolet;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+} 
+.banner-img img{
+    width: 300px;
+    border-radius: 15px;
 }
-.banner-content p{
-   padding: 20px;
+ .banner-content{
+    text-align: start;
+    /* color: blueviolet; */
 }
+
  
 .btn{
     margin-top: 20px;
@@ -32,7 +36,7 @@ background-image: linear-gradient(gray, white);
 .card-container{
     border-radius: 10px;
     padding: 10px ;
-    background-color: rgb(216, 213, 213);
+   background-image: linear-gradient(gray,white);
     margin:-60px 90px;
 }
 .img-container{
@@ -49,6 +53,10 @@ background-image: linear-gradient(gray, white);
 border-radius: 10px;
 }
 @media screen and (max-width:576px) {
+    .Banner-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .img-container{
         display: grid;
     }

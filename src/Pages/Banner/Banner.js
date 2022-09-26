@@ -12,6 +12,9 @@ const Banner = () => {
           </p>
           <button className="btn ">About More ...</button>
         </div>
+        <div className="banner-img ">
+          <img src="https://i.ibb.co/9ZKpt34/room5.png" alt="banner-img" />
+        </div>
       </div>
 
       {/* something */}

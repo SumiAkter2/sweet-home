@@ -41,3 +41,11 @@ font-weight: 500;
 .social-logo:hover{
     fill: blueviolet;
 }
+@media screen and (max-width:576px) {
+   .footer-container{
+    grid-template-columns: repeat(1,1fr);
+   }
+   .all-footer-content{
+    grid-template-columns: repeat(1, 1fr);
+   }
+}

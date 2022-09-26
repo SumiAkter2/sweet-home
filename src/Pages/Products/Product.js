@@ -4,8 +4,18 @@ const Product = ({ product }) => {
   return (
     <div className="product-container">
       <img src={product.picture} alt="img" />
-      <h5>{product.name}</h5>
-      <h6>{product.balance} </h6>
+      <div className="product">
+        <h4>{product.name}</h4>
+        <p>{product.sqr} </p>
+      </div>
+      <div className="product">
+        <p>{product.bed} </p>
+        <p>{product.guest} </p>
+      </div>
+      <div className="product">
+        <p>{product.balance} </p>
+        <button className="btn">Add to Cart</button>
+      </div>
     </div>
   );
 };
