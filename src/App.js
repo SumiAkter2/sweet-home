@@ -1,9 +1,10 @@
-import logo from "./logo.svg";
+
 import "./App.css";
+import Navbar from "./Pages/Header/Navbar";
 
 function App() {
   return <div className="App">
-    h
+    <Navbar/>
   </div>;
 }
 
