@@ -3,7 +3,7 @@ nav {
    align-items: center;
     display: flex;
     width: 80hv;
-    background-image: linear-gradient(rgba(255, 255, 0, 0.914), white);
+    background-image: linear-gradient(gray, white);
     padding-left: 20px;
     padding-right: 20px;
 }

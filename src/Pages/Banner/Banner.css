@@ -1,14 +1,12 @@
 .Banner-container{
-background-position:center ;
-background-repeat: no-repeat;
-    background-size: auto;
-    border-radius: 30px;
+background-image:linear-gradient(white,gray);
+    border-radius: 5px;
 } 
 
 .banner-content{
     text-align: center;
-   padding: 100px;
-    color: white;
+   padding: 80px;
+    color: blueviolet;
 }
 .banner-content p{
    padding: 20px;
@@ -23,21 +21,35 @@ background-repeat: no-repeat;
     font-size: 16px;
     font-weight: 600;
     color: rgb(67, 66, 66);
-background-image: linear-gradient(yellow, white);
+    background-image: linear-gradient(rgb(175, 96, 249), rgb(215, 212, 212));
+
 }
 .btn:hover{
     color: rgb(102, 44, 156);
-    background-image: linear-gradient(rgb(175, 96, 249), rgb(215, 212, 212));
+background-image: linear-gradient(gray, white);
     
 }
+.card-container{
+    border-radius: 10px;
+    padding: 10px ;
+    background-color: rgb(216, 213, 213);
+    margin:-60px 90px;
+}
+.img-container{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding:0 20px 0 20px;
+    text-align: center;
+    
+}
+.img-container img{
+border-radius: 10px;
+}
 @media screen and (max-width:576px) {
-    /* .Banner-container {
-            display: flex;
-            flex-direction: column-reverse;
-            justify-content: space-between;
-            align-items: center;
-        } */
-                /* .banner-img img {
-                    width: 300px;
-                } */
+    .img-container{
+        display: grid;
+    }
 }

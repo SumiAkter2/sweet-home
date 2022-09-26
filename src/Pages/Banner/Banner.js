@@ -3,12 +3,7 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <div>
-      <div
-        className="Banner-container"
-        style={{
-          backgroundImage: 'url("https://i.ibb.co/1XSs988/room6.png")',
-        }}
-      >
+      <div className="Banner-container">
         <div className="banner-content">
           <h1> Expect Nothing But The Best </h1>
           <p>
@@ -17,9 +12,54 @@ const Banner = () => {
           </p>
           <button className="btn ">About More ...</button>
         </div>
+      </div>
+
+      {/* something */}
+      <div className="card-container">
+        <div className="img-container ">
+          <div>
+            <img
+              style={{ width: "150px", height: "150px" }}
+              src="https://i.ibb.co/qMWdGV1/swimingpool2.png"
+              alt="hotel-img"
+            />
+            <p className="text-center">Swimming pool</p>
           </div>
-          
-          {/* something */}
+          <div>
+            <img
+              style={{ width: "150px", height: "150px" }}
+              src="https://i.ibb.co/Z2Ny3PB/room3.png"
+              alt="hotel-img"
+            />
+            <p className="text-center">Natural View</p>
+          </div>
+          <div>
+            <img
+              style={{ width: "150px", height: "150px" }}
+              src="https://i.ibb.co/WFR6dhm/coridor2.png"
+              alt="hotel-img"
+            />
+            <p className="text-center">Interior space</p>
+          </div>
+          <div>
+            <img
+              style={{ width: "150px", height: "150px" }}
+              src="https://i.ibb.co/NrnZzgM/room2.png"
+              alt="hotel-img"
+            />
+            <p className="">Luxurious suites</p>
+          </div>
+
+          <div>
+            <img
+              style={{ width: "150px", height: "150px" }}
+              src="https://i.ibb.co/V91JZpN/coridor.png"
+              alt="hotel-img"
+            />
+            <p className="">Corridor</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
