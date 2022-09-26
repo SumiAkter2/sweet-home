@@ -1,0 +1,27 @@
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+   
+}
+.product-container {
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background-image: linear-gradient(rgb(192, 191, 191), white);
+}
+
+.product-container img {
+    width: 200px;
+    height: 200px;
+}
+
+.product-container:hover {
+    background: white;
+}
+.header{
+    text-align: center;
+    margin-top: 100px;
+}
