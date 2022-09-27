@@ -1,6 +1,6 @@
 .Banner-container{
-   /* background-color: rgba(166, 165, 165, 0.536); */
-   background-image: linear-gradient(white,gray);
+ 
+   background:rgb(244, 248, 174);
    padding: 80px;
    display: flex;
    justify-content: space-between;
@@ -12,7 +12,6 @@
 }
  .banner-content{
     text-align: start;
-    /* color: blueviolet; */
 }
 
  
@@ -25,19 +24,20 @@
     font-size: 16px;
     font-weight: 600;
     color: rgb(67, 66, 66);
-    background-image: linear-gradient(rgb(175, 96, 249), rgb(215, 212, 212));
+    background-image: linear-gradient(rgb(250, 188, 72), rgb(215, 212, 212));
 
 }
 .btn:hover{
     color: rgb(102, 44, 156);
-background-image: linear-gradient(gray, white);
+background-image: linear-gradient(orange, white);
     
 }
 .card-container{
     border-radius: 10px;
     padding: 10px ;
-   background-image: linear-gradient(gray,white);
+   background-image: linear-gradient(rgb(250, 188, 72),white);
     margin:-60px 90px;
+    margin-bottom: 20px;
 }
 .img-container{
    
@@ -57,7 +57,50 @@ border-radius: 10px;
         display: flex;
         flex-direction: column-reverse;
     }
+    .card-container{
+        margin: -60px 80px;
+    }
+        .img-container img{
+            width: 100px;
+            height: 100px;
+        }
     .img-container{
         display: grid;
     }
+}
+@media screen and (min-width:768px) {
+    .Banner-container {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    
+        .card-container {
+            display: grid;
+            margin: -60px 130px;
+        }
+    
+        .img-container img {
+            width: 400px;
+            height: 400px;
+        }
+    
+        .img-container {
+            display: grid;
+            padding: 0 20px 0 20px;
+        }
+
+}
+@media only screen and (min-width: 992px){
+    .Banner-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .img-container {
+            display: flex;
+            padding: 0 20px 0 20px;
+            
+        }
+        .card-container{
+            margin-bottom: 20px;
+        }
 }

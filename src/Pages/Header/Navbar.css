@@ -3,7 +3,8 @@ nav {
    align-items: center;
     display: flex;
     width: 80hv;
-    background-image: linear-gradient(gray, white);
+    padding-top: 10px;
+    background:rgb(244, 248, 174);
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -38,8 +39,9 @@ color: rgb(86, 35, 134);
 }
 
 @media screen and (max-width:576px) {
-nav ul li  {
-       display: none;
+nav ul   {
+       display: grid;
+       
 
     }
 }

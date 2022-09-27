@@ -5,10 +5,8 @@ const SubscribePage = () => {
     <div className="Subscribe-container">
       <p>Subscribe To Our NewsLetter !</p>
       <div className="form">
-        <label className="label">
-          <span className="">Enter your email address</span>
-        </label>
-        <div className="">
+        <label className="label">Enter your email address</label>
+        <div>
           <input
             type="text"
             placeholder="username@site.com"
