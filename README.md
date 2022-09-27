@@ -1,6 +1,6 @@
 # Sweet Home ###(A hotel booking site )
 
- [Live Link](https://github.com/facebook/create-react-app).
+ [Live Link](https://sweet-home-cd054.web.app/).
 
 ## Technologies:
 - Html,
